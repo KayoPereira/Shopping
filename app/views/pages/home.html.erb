@@ -1,7 +1,8 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+
 <% @users.each do |user| %>
   <p><%= user.name %></p>
   <p><%= user.email %></p>
-  <p><%= user.profile_id %></p>
+  <p><%= user.profile.name %></p>
 <% end %>
