@@ -1,3 +1,3 @@
 class Zone < ApplicationRecord
-  belongs_to :district
+  has_many :districts
 end

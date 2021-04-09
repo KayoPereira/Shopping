@@ -1,4 +1,4 @@
 class District < ApplicationRecord
-  belongs_to :cities
-  has_many :zones
+  belongs_to :city
+  belongs_to :zone
 end
